@@ -2,6 +2,15 @@
 
 A research environment for studying option pricing, implied volatility, Greeks, and dynamic hedging strategies.
 
+## Current Status
+
+The project currently includes:
+
+- Black-Scholes pricing
+- payoff functions
+- put-call parity validation
+- unit tests
+
 This project is designed to support:
 
 - Black-Scholes option pricing
