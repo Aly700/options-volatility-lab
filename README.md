@@ -9,6 +9,7 @@ The project currently includes:
 - Black-Scholes pricing
 - payoff functions
 - put-call parity validation
+- Greeks calculation
 - unit tests
 
 This project is designed to support:
