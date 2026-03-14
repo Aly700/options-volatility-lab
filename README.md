@@ -17,6 +17,16 @@ The project currently includes:
 
 The project can generate a synthetic call option chain around spot, extract implied volatility from those prices, and save a volatility smile chart to `outputs/charts/volatility_smile.png`.
 
+The initial version used a constant volatility to generate all synthetic option prices. Since implied volatility was then recovered using the same Black-Scholes model, the recovered implied vol was constant across strikes. This produced a flat line, which is correct under constant-vol Black-Scholes but does not resemble real market option data.
+
+Real markets typically exhibit volatility smiles or skews. To make the project more realistic and visually informative, the synthetic option chain now supports strike-dependent vol structures so the implied volatility extraction step can recover a non-flat curve that is more useful for research and demonstration.
+
+Supported modes:
+
+- `flat`
+- `smile`
+- `skew`
+
 This project is designed to support:
 
 - Black-Scholes option pricing
