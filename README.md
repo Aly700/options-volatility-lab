@@ -10,6 +10,7 @@ The project currently includes:
 - payoff functions
 - put-call parity validation
 - Greeks calculation
+- implied volatility solver
 - unit tests
 
 This project is designed to support:
