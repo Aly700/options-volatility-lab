@@ -13,6 +13,10 @@ The project currently includes:
 - implied volatility solver
 - unit tests
 
+## Volatility Smile
+
+The project can generate a synthetic call option chain around spot, extract implied volatility from those prices, and save a volatility smile chart to `outputs/charts/volatility_smile.png`.
+
 This project is designed to support:
 
 - Black-Scholes option pricing
